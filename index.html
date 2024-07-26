@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Conference 2024</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">TechConf 2024</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#speakers">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#schedule">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#register">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-info text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to TechConf 2024</h1>
+            <p class="lead">Join us for a day of insightful talks and networking with industry leaders.</p>
+            <a href="#register" class="btn btn-light btn-lg">Register Now</a>
+        </div>
+    </header>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Meet Our Speakers</h2>
+            <div class="row">
+                <!-- Speaker Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://www.shutterstock.com/image-photo/happy-cheerful-indian-professional-guy-260nw-2153777305.jpg" class="card-img-top" alt="Speaker 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Deepak Patel</h5>
+                            <p class="card-text"> AI and Machine Learning Expert</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Speaker Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://www.shutterstock.com/image-photo/confident-expert-handsome-young-man-260nw-201571940.jpg" class="card-img-top" alt="Speaker 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Ben Smith</h5>
+                            <p class="card-text">Cybersecurity Innovator</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Speaker Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.jpg?s=612x612&w=0&k=20&c=n9yulMNKdIYIQC-Qns8agFj6GBDbiKyPRruaUTh4MKs=" class="card-img-top" alt="Speaker 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Michael Williams </h5>
+                            <p class="card-text">Cloud Computing Specialist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="schedule" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Event Schedule</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4>Morning Session</h4>
+                    <p>9:00 AM - 12:00 PM: Keynote Speeches and Panel Discussions.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4>Afternoon Session</h4>
+                    <p>1:00 PM - 3:00 PM: Workshops and Networking Opportunities.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4>Evening Session</h4>
+                    <p>4:00 PM - 6:00 PM: Closing Remarks and Awards Ceremony.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="register" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Register for the Event</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Any special requirements?" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+  
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <p>Email: info@techconf2024.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <div>
+                <a href="#" class="text-light mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-light mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-light mx-2"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2024 Tech Conference. All rights reserved.</p>
+    </footer>
+
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
